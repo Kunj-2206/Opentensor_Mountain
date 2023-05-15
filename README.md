@@ -35,3 +35,5 @@ python3 data_mountain.py --clone true
 It clone opentensor/text-mountain github repo to current directory since it needs to fetch hashes from all this opentensor files 
 If you already clone this repo in current working directory then you can set --clone false
 
+## Dataset
+The script will save example of each sources to text file and atlast it is storing all examples in 3 types of format in file so it can be used from there or you can just take raw_dataset from script which is Dataset variable and load into your model script 
